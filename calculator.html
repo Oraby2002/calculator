@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <h2>calculator</h2>
+      <label for="num1">number one:</label>
+      <input type="number" id="num1" placeholder="inter num1" /><br />
+      <label for="num2">number two:</label>
+      <input type="number" id="num2" placeholder=" inter num2" /><br /><br />
+      <button onclick="addNumbers()">add</button>
+      <button onclick="subNumbers()">subtriction</button>
+      <button onclick="miltiNumbers()">multiply</button>
+      <button onclick="dividNumbers()">divide</button>
+      <h3>result: <span id="result">0</span></h3>
+    </div>
+
+    <script src="calculate.js"></script>
+  </body>
+</html>
